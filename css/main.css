@@ -1,15 +1,12 @@
 
 
-
-
 .container{
     max-width: 1200px;
     padding: 0 2rem;
     margin: auto;
     overflow: hidden;
-    
-
 }
+
 .btn-main, .btn-light, .btn-dark {
     display: inline-block;
     padding: 0.8rem 2rem;
@@ -319,26 +316,68 @@ text-align: center; }
 #home-b .stats div:nth-child(even) {
       background: #ccc; }
 
+
+
+
 #main-footer {
-  background: #333;
-  color: #fff;
+  background: rgb(225, 0, 255);
+  color: rgb(0, 0, 0);
   height: 5rem; }
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
     height: 5rem;
     align-items: center; }
-    #main-footer .footer-content .social .fab {
-      margin-right: 1rem;
-      border: 2px #fff solid;
+
+    
+    #main-footer .footer-content .social .link {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      width: 40px;
+      height: 40px;
       border-radius: 50%;
-      height: 20px;
-      width: 20px;
-      line-height: 20px;
+      border: 2px dashed white;
+      background-clip: content-box;
+      padding: 6px;
+      transition: .5s;
+      color: #D7D0BE;
+      margin-left: 9px;
+      margin-right: 9px;
+      font-size: 20px;
+    }
+    
+    #main-footer .footer-content .social .link span {
+      display: block;
+      position: absolute;
       text-align: center;
-      padding: 0.5rem; }
-      #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00; }
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    #main-footer .footer-content .social .link:hover {
+      padding: 12px;
+      color: white;
+      margin-left: -3px;
+      transform: translateX(6px) rotate(360deg);
+    }
+    
+    #main-footer .footer-content .social .link.linkedin {
+      background-color: #0e76a8;
+      color: white;
+    }
+    
+    #main-footer .footer-content .social .link.twitter {
+      background-color: #00ACEE;
+      color: white;
+    }
+    
+    #main-footer .footer-content .social .link.facebook {
+      background-color: #3B5998;
+      color: white;
+    }
+
 
 #about-a .about-info {
   display: grid;
@@ -405,4 +444,3 @@ text-align: center; }
 @media (max-height: 330px) {
   #header-home .header-content h1 {
     font-size: 2rem; } }
-      
