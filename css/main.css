@@ -276,7 +276,7 @@ img {
   padding: 0.5rem 1rem; }
   
 #contact-a button[type='submit'] {
-  width: 25%; }
+  width: 40%; }
 
 #contact-b .contact-info {
   display: grid;
@@ -322,7 +322,7 @@ img {
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
 
   .lead {
     font-size: .75rem;
@@ -373,20 +373,23 @@ img {
     font-size: 2.5rem;}
 
   #contact-a .bottom-line {
-  margin-bottom: 5rem;  }
+    margin-bottom: 5rem;  }
 
   #contact-a .text-fields .text-input {
     min-width: 5rem; }
+
+  #contact-b .contact-info {
+    font-size: .5rem}
     
   #main-footer {
     background: #555555;                /* bottom footer - social sites*/
     color: rgb(0, 0, 0);                /* font color in there*/
-    height: 3rem; }
+    height: 2rem; }
 
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
-    height: 3rem;
+    height: 2rem;
     align-items: center; }
   
   #main-footer .footer-content .social .link {
