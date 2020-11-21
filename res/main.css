@@ -442,32 +442,32 @@ border: 0;
 border-top: 1px solid #eee;
 }
 
-.w3-display-container {
+.pf-display-container {
 position: relative
 }
 
-.w3-container:after,
-.w3-container:before,
-.w3-row-padding:after,
-.w3-row-padding:before {
+.pf-container:after,
+.pf-container:before,
+.pf-row-padding:after,
+.pf-row-padding:before {
 content: "";
 display: table;
 clear: both
 }
 
 
-.w3-third,
-.w3-twothird {
+.pf-third,
+.pf-twothird {
 float: left;
 width: 100%;
 }
 
 @media (min-width: 601px) {
-.w3-third {
+.pf-third {
   width: 25%
   }
   
-.w3-twothird {
+.pf-twothird {
   width: 50%
 }
 
@@ -480,78 +480,78 @@ width: 100%;
 }
 }
 
-.w3-content{
+.pf-content{
 margin-left: auto;
 margin-right: auto
 }
 
-.w3-display-bottomleft {
+.pf-display-bottomleft {
 position: absolute;
 left: 0;
 bottom: 0
 }
 
-.w3-round{
+.pf-round{
   border-radius: 4px;
   padding-left: 4px;
 padding-right: 4px;
 padding-bottom: 2px;
 }
 
-.w3-round-xlarge {
+.pf-round-xlarge {
 border-radius: 16px
 }
 
-.w3-row-padding,
-.w3-row-padding>.w3-third,
-.w3-row-padding>.w3-twothird {
+.pf-row-padding,
+.pf-row-padding>.pf-third,
+.pf-row-padding>.pf-twothird {
 padding: 0 8px
 }
 
-.w3-container{
+.pf-container{
 padding: 0.01em 16px
 }
 
-.w3-card{
+.pf-card{
 box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.w3-card-4{
+.pf-card-4{
 box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.w3-small {font-size: 10px!important}
-.w3-large {font-size: 18px!important}
-.w3-xxlarge {font-size: 36px!important}
-.w3-center {text-align: center!important}
+.pf-small {font-size: 10px!important}
+.pf-large {font-size: 18px!important}
+.pf-xxlarge {font-size: 36px!important}
+.pf-center {text-align: center!important}
 
-.w3-margin-top {margin-top: 16px!important}
-.w3-margin-bottom {margin-bottom: 16px!important}
-.w3-margin-right {margin-right: 16px!important}
+.pf-margin-top {margin-top: 16px!important}
+.pf-margin-bottom {margin-bottom: 16px!important}
+.pf-margin-right {margin-right: 16px!important}
 
-.w3-padding-16 {
+.pf-padding-16 {
 padding-top: 16px!important;
 padding-bottom: 16px!important
 }
 
-.w3-teal{
+.pf-teal{
 color: #fff!important;
 background-color: #009688!important
 }
 
-.w3-white{
+.pf-white{
 color: #000!important;
 background-color: #fff!important
 }
 
-.w3-light-grey{
+.pf-light-grey{
 color: #000!important;
 background-color: #f1f1f1!important
 }
 
-.w3-text-teal{color: #009688!important}
-.w3-text-black{color: #000!important; background-color: #009688;}
-.w3-text-grey{color: #757575!important}
+.pf-text-teal{color: #009688!important}
+.pf-text-black{color: #000!important; background-color: #009688;}
+.pf-text-grey{color: #757575!important}
 
 
 /* my new css */
