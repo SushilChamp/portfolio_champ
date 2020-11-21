@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossorigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Dosis"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="main.css" />
+        <title>Sushil Champ | Portfolio</title>
+</head>
+
+<body>
+
+<!-- header -->
+<header id = "header-home">
+    <div class="container">
+        <nav id="main-nav">
+            <h1>Sushil Champ</h1>
+            <ul>
+                <li><a href="#header-home" class="current">Home</a></li>
+                <li><a href="#home-a">About</a></li>                   
+                <li><a href="#contact-a">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Welcome to my <span class="txt-type" data-wait="3000" data-words='["portfolio site"]'></span></h1>
+                <p class="lead"> I specialize as a Pressure-Vessel Design Engineer.</p>
+                <a href="https://drive.google.com/file/d/1SqEpcIdBB2ARDdrJNoz3J75QeAEQPZis/view" class="btn-light">Download CV</a>
+        </div>        
+    </div>
+</header>
+
+
+<!-- specialized -->
+<section id="home-a" class="text-center py-2">
+  <div class="container">
+    <h2 class="section-title">I Specialize In</h2>
+    <div class="bottom-line"></div>
+    <p class="lead"> Machine Design  -  Mechanism Development  -  Android Developer  -  CAD-2D/3D  -  FEA</p>
+</section>
+
+
+<section id="home-b" class="text-center py-2">
+  <div class="stats">
+    <div>
+      <ul>
+        <li><i class="fas fa-users fa-3x"></i></li>
+        <li class="stats-title">Clients</li>
+        <li class="stats-number">100</li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li><i class="fas fa-award fa-3x"></i></li>
+        <li class="stats-title">Skills</li>
+        <li class="stats-number">35</li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li><i class="fas fa-hourglass-start fa-3x"></i></li>
+        <li class="stats-title">Hours Worked</li>
+        <li class="stats-number">35</li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li><i class="fas fa-code-branch fa-3x"></i></li>
+        <li class="stats-title">Projects Completed</li>
+        <li class="stats-number">5</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- about me   -->
+<section id="about-a" class="text-center py-3">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="bottom-line"></div>
+
+    <p class="lead">Let me tell you a little about myself and what I do...</p>
+    <div class="about-info">
+      <img src="champ.jpg" alt="" class="bio-image" />
+      <div class="bio bg-light">
+        <h4>Your Project Is In Safe Hands</h4>
+        <p>
+          I have done my Bachelor in Mechanical Engineering from Thapathali Campus, TU, Nepal. Currently i am having my Masters Degree in Engineering Science from Pulchowk Campus.
+          I have keen interest in machine design and mechanism development. I also enjoy design analysis and simulation and have some knowledge of android programme development.
+          I am a guy with good team working capacity and have a good sense of humor. I love to share general knowledges and love get to know about digital technologies.
+        </p>
+      </div>
+
+      <div class="award-1">
+        <i class="fas fa-award fa-3x"></i>
+        <h3>Machine Design</h3>
+        <p>Expertise in Pressure Vessel Design and 2D-Drafting</p>
+      </div>
+
+      <div class="award-2">
+        <i class="fas fa-award fa-3x"></i>
+        <h3>CAD</h3>
+        <p>Basic machine mechanism development and design analysis</p>
+      </div>
+
+      <div class="award-3">
+        <i class="fas fa-award fa-3x"></i>
+        <h3>Programming</h3>
+        <p>JAVA - Python - HTML</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- contact me -->
+<section id="contact-a" class="text-center py-3">
+  <div class="container">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="bottom-line"></div>
+    <p class="lead">Here is how you can reach me</p>
+
+    <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+      <div class="text-fields">
+        <input
+          type="text"
+          class="text-input name-input"
+          placeholder="Name"
+          name="name"
+        />
+        <input
+          type="text"
+          class="text-input subject-input"
+          placeholder="Subject"
+          name="subject"
+        />
+        <input
+          type="email"
+          class="text-input email-input"
+          placeholder="Email Address"
+          name="email"
+        />
+        <input
+          type="text"
+          class="text-input phone-input"
+          placeholder="Phone Number"
+          name="phone"
+        />
+        <textarea
+          class="text-input message-input"
+          placeholder="Enter Message"
+          name="message"
+        ></textarea>
+
+        <div class="py-1">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
+
+      </div>
+      <button type="submit" class="btn-dark">Submit</button>
+    </form>
+  </div>
+</section>
+
+
+<!-- Section B: Contact Info -->
+<section id="contact-b" class="py-3 bg-main">
+  <div class="container">
+    <div class="contact-info">
+      <div>
+        <i class="fas fa-envelope fa-2x"></i>
+        <h3>Email</h3>
+        <p>sushilchamp58@gmail.com</p>
+      </div>
+
+      <div>
+        <i class="fas fa-phone fa-2x"></i>
+        <h3>Phone</h3>
+        <p>9860562314</p>
+      </div>
+
+      <div>
+        <i class="fas fa-address-card fa-2x"></i>
+        <h3>Address</h3>
+        <p>Kawasoti-7, Nawalparasi</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer  -->
+<footer id="main-footer">
+  <div class="footer-content container">
+    <p>Champ &copy; 2020</p>
+    <div class="social">
+      <a href="https://facebook.com/chapagain.sushil" class="link facebook" target="_parent"><span class="fab fa-facebook-square"></span></a>
+      <a href="https://twitter.com/champ_sushil" class="link twitter" target="_parent"><span class="fab fa-twitter"></span></a>
+      <a href="https://www.linkedin.com/in/sushil-chapagain-96a584114/" class="link linkedin" target="_parent"><span class="fab fa-linkedin"></span></a>
+      <a href="https://www.instagram.com/champ.sushil/" class="link instagram" target="_parent"><span class="fab fa-instagram"></span></a>
+      <a href="https://www.youtube.com/channel/UCX7M-CXWvjXQcpZz0FUeZkQ?view_as=subscriber" class="link youtube" target="_parent"><span class="fab fa-youtube"></span></a>
+      <a href="https://github.com/SushilChamp" class="link github" target="_parent"><span class="fab fa-github"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/text.js"></script> 
+
+</body>
+
+</html>
