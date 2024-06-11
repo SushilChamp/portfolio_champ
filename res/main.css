@@ -224,6 +224,10 @@ img {
   background-color: #211F1F;
   color: white; }
 
+#main-footer .footer-content .social .link.scholar {
+  background-color: #318CE7;
+  color: white; }
+
 
 #about-a .about-info {
   display: grid;
